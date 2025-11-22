@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div id="sizeChange">
+            <button id="less">-</button>
+            <div id="canvasSize"></div>
+            <button id="more">+</button>
+        </div>
+        
+        <button id="clear">clear</button>
+        
+        <div id="presetsDiv">
+            <button id="whiteButton" class="colorHover"></button>
+            <button id="blackButton" class="colorHover"></button>
+            <button id="redButton" class="colorHover"></button>
+            <button id="orangeButton" class="colorHover"></button>
+            <button id="yellowButton" class="colorHover"></button>
+            <button id="greenButton" class="colorHover"></button>
+            <button id="blueButton" class="colorHover"></button>
+        </div>
+        <div id="colorChangeDiv">
+            <label for="color">Custom color:</label>
+            <input type="text" id="colorInput" placeholder="#FFFFFF or white">
+            <input type="button" value="change" id="colorButton">
+        </div>
+        
+    </div>
+
+    <div id="view">
+        <div id="container"></div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

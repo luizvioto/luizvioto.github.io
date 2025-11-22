@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    background-color: black;
+    height: 10vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sizeChange{
+    display: flex;
+}
+
+#sizeChange{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#less,
+#more{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+#canvasSize{
+    font-size: 30px;
+    color: white;
+}
+
+#presetsDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#view{
+    flex-grow: 1;
+    flex-shrink: 1; 
+    
+    background-color: EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#container{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    background-color: white;
+    border: 1px solid;
+}
+
+button{
+    background: rgb(0, 0, 0);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration:none;
+    border:3px solid #999999;
+}
+
+#clear{
+    font-size: 15px;
+    line-height: 50px;
+}
+
+#whiteButton{
+    background: white;
+}
+#blackButton{
+    background: black;
+}
+#redButton{
+    background: red;
+}
+#orangeButton{
+    background: orange;
+}
+#yellowButton{
+    background: yellow;
+}
+#greenButton{
+    background: green;
+}
+#blueButton{
+    background: blue;
+}
+
